@@ -1,0 +1,17 @@
+#!/bin/bash
+
+rm -r a.out;
+echo "[!] Cleaning the last output"
+echo " "
+sleep 1
+
+gcc $@;
+echo "[+] Compiling the code"
+echo " "
+sleep 1
+
+./a.out
+
+
+
+
